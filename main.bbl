@@ -1,0 +1,693 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{ahmedHydrogelPreparationCharacterization2015}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=09111c5fc76938e7d796b5b0d6631237}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Enas\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{09111c5fc76938e7d796b5b0d6631237}
+      \strng{fullhash}{09111c5fc76938e7d796b5b0d6631237}
+      \strng{fullhashraw}{09111c5fc76938e7d796b5b0d6631237}
+      \strng{bibnamehash}{09111c5fc76938e7d796b5b0d6631237}
+      \strng{authorbibnamehash}{09111c5fc76938e7d796b5b0d6631237}
+      \strng{authornamehash}{09111c5fc76938e7d796b5b0d6631237}
+      \strng{authorfullhash}{09111c5fc76938e7d796b5b0d6631237}
+      \strng{authorfullhashraw}{09111c5fc76938e7d796b5b0d6631237}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Hydrogel products constitute a group of polymeric materials, the hydrophilic structure of which renders them capable of holding large amounts of water in their three-dimensional networks. Extensive employment of these products in a number of industrial and environmental areas of application is considered to be of prime importance. As expected, natural hydrogels were gradually replaced by synthetic types due to their higher water absorption capacity, long service life, and wide varieties of raw chemical resources. Literature on this subject was found to be expanding, especially in the scientific areas of research. However, a number of publications and technical reports dealing with hydrogel products from the engineering points of view were examined to overview technological aspects covering this growing multidisciplinary field of research. The primary objective of this article is to review the literature concerning classification of hydrogels on different bases, physical and chemical characteristics of these products, and technical feasibility of their utilization. It also involved technologies adopted for hydrogel production together with process design implications, block diagrams, and optimized conditions of the preparation process. An innovated category of recent generations of hydrogel materials was also presented in some details.}
+      \field{day}{1}
+      \field{issn}{2090-1232}
+      \field{journaltitle}{Journal of Advanced Research}
+      \field{month}{3}
+      \field{number}{2}
+      \field{shortjournal}{Journal of Advanced Research}
+      \field{shorttitle}{Hydrogel}
+      \field{title}{Hydrogel: {{Preparation}}, Characterization, and Applications: {{A}} Review}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{105\bibrangedash 121}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.jare.2013.07.006
+      \endverb
+      \verb{file}
+      \verb /Users/tahmidazam/Zotero/storage/HPCG5NVH/S2090123213000969.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2090123213000969
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2090123213000969
+      \endverb
+      \keyw{Hydrogel,Innovation,Optimization,Preparation,Processing}
+    \endentry
+    \entry{wangPreparationCharacterizationAgarose1997}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=7deff1eefb924edf3abd1d4c994a0e74}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Nuo},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c81b6ef27e81866026fb39c3992a92f7}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xue\bibnamedelima Shen},
+           giveni={X\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{fda3e627e2148abe69f66d078981756b}
+      \strng{fullhash}{fda3e627e2148abe69f66d078981756b}
+      \strng{fullhashraw}{fda3e627e2148abe69f66d078981756b}
+      \strng{bibnamehash}{fda3e627e2148abe69f66d078981756b}
+      \strng{authorbibnamehash}{fda3e627e2148abe69f66d078981756b}
+      \strng{authornamehash}{fda3e627e2148abe69f66d078981756b}
+      \strng{authorfullhash}{fda3e627e2148abe69f66d078981756b}
+      \strng{authorfullhashraw}{fda3e627e2148abe69f66d078981756b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The purpose of this work was to develop and characterize a protein and peptide injectable drug delivery system in agarose hydrogel nanoparticles. The nanoparticles were prepared by using a new emulsion-converted-to-suspension in situ method. This is an emulsifier-free method that has advantages for protein and peptide drug encapsulations. Ovalbumin, used as a model protein drug, was successfully encapsulated into nearly spherical agarose hydrogel nanoparticles under mild conditions. The nanoparticles possessed a log-normal size distribution with an average size of 504 nm. They imbibed a large amount of water (66.85\% to 84.33\%) and the water content was a function of temperature; the water content increased with increase in temperature. Release studies of the ovalbumin from the agarose hydrogel nanoparticles revealed a diffusion-controlled release mechanism with a temperature dependence; the ovalbumin release rate was higher at 37°C than that at room temperature. The great biocompatibility of agarose hydrogel, plus the mild conditions for drug encapsulation, make the agarose hydrogel nanoparticles a potential system for protein and peptide drug delivery.}
+      \field{day}{1}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1083-7450}
+      \field{journaltitle}{Pharmaceutical Development and Technology}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Preparation and {{Characterization}} of {{Agarose Hydrogel Nanoparticles}} for {{Protein}} and {{Peptide Drug Delivery}}}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{2}
+      \field{year}{1997}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{135\bibrangedash 142}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.3109/10837459709022618
+      \endverb
+      \verb{eprint}
+      \verb 9552439
+      \endverb
+      \verb{file}
+      \verb /Users/tahmidazam/Zotero/storage/XYHZN6Q9/Wang and Wu - 1997 - Preparation and Characterization of Agarose Hydrogel Nanoparticles for Protein and Peptide Drug Deli.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3109/10837459709022618
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3109/10837459709022618
+      \endverb
+      \keyw{Agarose,Hydrogel,Nanoparticles,Ovalbumin,Protein and peptide drug delivery}
+    \endentry
+    \entry{jiangExtractionModificationBiomedical2023}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=40dcfc608412e17f5c4cc12a8f96265e}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=de39206eefe1a317fa2b4befeb07999f}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Xin-Wei},
+           giveni={X\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=615cc75bca8987d3139119cc060d3f0e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Fu-Quan},
+           giveni={F\bibinithyphendelim Q\bibinitperiod}}}%
+        {{hash=a0b54bbc21009ffdeccb59f70d1744e3}{%
+           family={Weng},
+           familyi={W\bibinitperiod},
+           given={Hui-Fen},
+           giveni={H\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=af06704764d8034ca33edc1493e66b7b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d883fd0016269674ee0967f379a2ac39}{%
+           family={Ru},
+           familyi={R\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e1716198b8ef6acebd48eefc8381f1c6}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Qiong},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=b017f0aa3e2f303f29d2b4cf339b2846}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={An-Feng},
+           giveni={A\bibinithyphendelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{9e2c45d6e77db601367476678e7612f4}
+      \strng{fullhash}{d23caf19a7b61f6e5b35a7846bfe019c}
+      \strng{fullhashraw}{d23caf19a7b61f6e5b35a7846bfe019c}
+      \strng{bibnamehash}{9e2c45d6e77db601367476678e7612f4}
+      \strng{authorbibnamehash}{9e2c45d6e77db601367476678e7612f4}
+      \strng{authornamehash}{9e2c45d6e77db601367476678e7612f4}
+      \strng{authorfullhash}{d23caf19a7b61f6e5b35a7846bfe019c}
+      \strng{authorfullhashraw}{d23caf19a7b61f6e5b35a7846bfe019c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Numerous compounds present in the ocean are contributing to the development of the biomedical field. Agarose, a polysaccharide derived from marine red algae, plays a vital role in biomedical applications because of its reversible temperature-sensitive gelling behavior, excellent mechanical properties, and high biological activity. Natural agarose hydrogel has a single structural composition that prevents it from adapting to complex biological environments. Therefore, agarose can be developed into different forms through physical, biological, and chemical modifications, enabling it to perform optimally in different environments. Agarose biomaterials are being increasingly used for isolation, purification, drug delivery, and tissue engineering, but most are still far from clinical approval. This review classifies and discusses the preparation, modification, and biomedical applications of agarose, focusing on its applications in isolation and purification, wound dressings, drug delivery, tissue engineering, and 3D printing. In addition, it attempts to address the opportunities and challenges associated with the future development of agarose-based biomaterials in the biomedical field. It should help to rationalize the selection of the most suitable functionalized agarose hydrogels for specific applications in the biomedical industry.}
+      \field{issn}{1660-3397}
+      \field{journaltitle}{Marine Drugs}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shorttitle}{Extraction, {{Modification}} and {{Biomedical Application}} of {{Agarose Hydrogels}}}
+      \field{title}{Extraction, {{Modification}} and {{Biomedical Application}} of {{Agarose Hydrogels}}: {{A Review}}}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{21}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{299}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/md21050299
+      \endverb
+      \verb{file}
+      \verb /Users/tahmidazam/Zotero/storage/K48HXBC9/Jiang et al. - 2023 - Extraction, Modification and Biomedical Application of Agarose Hydrogels A Review.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1660-3397/21/5/299
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1660-3397/21/5/299
+      \endverb
+      \keyw{agarose,biomedical application,hydrogel,modification}
+    \endentry
+    \entry{normandNewInsightAgarose2000}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=a58a7f56b46d07d192600e2d8c2944a0}{%
+           family={Normand},
+           familyi={N\bibinitperiod},
+           given={Valéry},
+           giveni={V\bibinitperiod}}}%
+        {{hash=45913d57626d7665790eaf58507ab186}{%
+           family={Lootens},
+           familyi={L\bibinitperiod},
+           given={Didier\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=3c3de8426b2e46afdbca2502609ddbdc}{%
+           family={Amici},
+           familyi={A\bibinitperiod},
+           given={Eleonora},
+           giveni={E\bibinitperiod}}}%
+        {{hash=72257f6c8b114d580e21adc48b0e50f1}{%
+           family={Plucknett},
+           familyi={P\bibinitperiod},
+           given={Kevin\bibnamedelima P.},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=6c74b7c5d4ee8faf1dccebb404acaac5}{%
+           family={Aymard},
+           familyi={A\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{313e6040452312ad2866017592949aca}
+      \strng{fullhash}{600896fe9294a65e5e1997bdc77e97fb}
+      \strng{fullhashraw}{600896fe9294a65e5e1997bdc77e97fb}
+      \strng{bibnamehash}{313e6040452312ad2866017592949aca}
+      \strng{authorbibnamehash}{313e6040452312ad2866017592949aca}
+      \strng{authornamehash}{313e6040452312ad2866017592949aca}
+      \strng{authorfullhash}{600896fe9294a65e5e1997bdc77e97fb}
+      \strng{authorfullhashraw}{600896fe9294a65e5e1997bdc77e97fb}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The current study focuses on the effects of the molecular weight on the mechanical behavior of agarose gels. The small strain rheology and large strain deformation/failure behavior of three different molecular weight agarose gels have been examined, with the results expressed in term of molar concentration. For small deformation strains, the gelation temperature at low concentrations and the critical concentration for gel formation are strongly affected by the molecular weight. In addition, the elasticity of the network is also very sensitive to this parameter. It has been demonstrated that the experimental gelation cure curves can be superimposed on a universal gelation master curve, independent of the cure time. This would indicate self-similarity of the network at different scales, irrespective of concentration. A relationship between the elastic modulus and the molecular weight has been extracted from these results, where the molecular weight dependence exhibits a power law exponent of 2.42. For large deformation strains, the Poisson ratio has been estimated to be 0.5 for each of the agarose types examined, which indicates that these gels are incompressible. The strain at failure is largely dependent on the molecular weight, and is essentially independent of the biopolymer concentration. This result highlights the fact that the strain at failure is sensitive to the connectivity distances in the gel network. However, the failure stress and Young's modulus of agarose gels show a dependence on both concentration and molecular weight. The observations regarding Young's modulus are in good agreement with those found for small deformation strain rheology for the shear modulus. One of the primary advantages of using the lowest molecular weight agarose is that higher molar concentrations can be reached (more molecules per unit volume). However, the mechanical response of agarose gels is very sensitive to the molecular weight at fixed molar concentration, and if the present results are extrapolated to very low molecular weight, it can be suggested that below a limiting molecular weight a percolating network will not be formed, as suggested by the Cascade model (Carbohydr. Polym. 1994, 23, 247−251). This speculation is based on the influence of the “connectivity” at long distances, which influences the strain at failure (when the strain at failure is zero, the system is not connective).}
+      \field{day}{1}
+      \field{issn}{1525-7797}
+      \field{journaltitle}{Biomacromolecules}
+      \field{month}{12}
+      \field{number}{4}
+      \field{shortjournal}{Biomacromolecules}
+      \field{title}{New {{Insight}} into {{Agarose Gel Mechanical Properties}}}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{1}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{730\bibrangedash 738}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1021/bm005583j
+      \endverb
+      \verb{file}
+      \verb /Users/tahmidazam/Zotero/storage/BIRCKZUQ/Normand et al. - 2000 - New Insight into Agarose Gel Mechanical Properties.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/bm005583j
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/bm005583j
+      \endverb
+    \endentry
+    \entry{saccoIonicStrengthImpacts2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=1b53ce69497c28a35ceb36a482eb1522}{%
+           family={Sacco},
+           familyi={S\bibinitperiod},
+           given={Pasquale},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9e65b0569c2949c06f4fccf0d5a43488}{%
+           family={Piazza},
+           familyi={P\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e9683ad0f341d66cd2a30e2ca3a1f361}{%
+           family={Marsich},
+           familyi={M\bibinitperiod},
+           given={Eleonora},
+           giveni={E\bibinitperiod}}}%
+        {{hash=441fd57379f7c56ff6419f6e1d118263}{%
+           family={Abrami},
+           familyi={A\bibinitperiod},
+           given={Michela},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b4a5ce9ebadcc850b98bd987c498c14a}{%
+           family={Grassi},
+           familyi={G\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=84aea9e11aecd80f98d4dc2e50ad5df1}{%
+           family={Donati},
+           familyi={D\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{5e5d83c7ee223bdd08e462857e04279b}
+      \strng{fullhash}{d14048d1d4078b08d11251861481f382}
+      \strng{fullhashraw}{d14048d1d4078b08d11251861481f382}
+      \strng{bibnamehash}{5e5d83c7ee223bdd08e462857e04279b}
+      \strng{authorbibnamehash}{5e5d83c7ee223bdd08e462857e04279b}
+      \strng{authornamehash}{5e5d83c7ee223bdd08e462857e04279b}
+      \strng{authorfullhash}{d14048d1d4078b08d11251861481f382}
+      \strng{authorfullhashraw}{d14048d1d4078b08d11251861481f382}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Agarose is a natural polysaccharide known for its ability to form thermoreversible hydrogels. While the effects of curing temperature and polysaccharide concentration on mechanical properties have been discussed in the literature, the role of ionic strength has been less studied. In the present manuscript, we investigate the effects of supporting salt concentration and the role of cation (i.e. Na+ or Li+, neighbors in the Hofmeister series), on the setting and performance of agarose hydrogels. Compressive and rheological measurements show that the supporting salts reduce the immediate elastic response of agarose hydrogels, with Li+ showing a stronger effect than Na+ at high ionic strength, while they significantly increase the extent of linear stress-strain response (i.e., linear elasticity). The presence of increasing amounts of added supporting salt also leads to a reduction in hysteresis during mechanical deformation due to loading and unloading cycles, which is more pronounced with Li+ than with Na+. The combination of rheological measurements and NMR relaxometry shows a mesh size in agarose hydrogels in the order of 6–17 nm, with a thickness of the water layer bound to the biopolymer of about 3 nm. Of note, the different structuring of the water within the hydrogel network due to the different alkali seems to play a role for the final performance of the hydrogels.}
+      \field{issn}{2310-2861}
+      \field{journaltitle}{Gels}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Ionic {{Strength Impacts}} the {{Physical Properties}} of {{Agarose Hydrogels}}}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{10}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{94}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/gels10020094
+      \endverb
+      \verb{file}
+      \verb /Users/tahmidazam/Zotero/storage/6AD8WTYF/Sacco et al. - 2024 - Ionic Strength Impacts the Physical Properties of Agarose Hydrogels.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2310-2861/10/2/94
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2310-2861/10/2/94
+      \endverb
+      \keyw{agarose,hydrogel,ionic strength,mechanical properties,structuring of the water}
+    \endentry
+    \entry{ghebremedhinPhysicsAgaroseFluid2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=75a6ab54c0c0c9369597bf0993530117}{%
+           family={Ghebremedhin},
+           familyi={G\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c40de86921fdeddd0428a80b6e00f1ed}{%
+           family={Seiffert},
+           familyi={S\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ce5f91704c46a98fc3c33d3c23f8c0d4}{%
+           family={Vilgis},
+           familyi={V\bibinitperiod},
+           given={Thomas\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{70dc2920f7527745f977bbed64bb4296}
+      \strng{fullhash}{70dc2920f7527745f977bbed64bb4296}
+      \strng{fullhashraw}{70dc2920f7527745f977bbed64bb4296}
+      \strng{bibnamehash}{70dc2920f7527745f977bbed64bb4296}
+      \strng{authorbibnamehash}{70dc2920f7527745f977bbed64bb4296}
+      \strng{authornamehash}{70dc2920f7527745f977bbed64bb4296}
+      \strng{authorfullhash}{70dc2920f7527745f977bbed64bb4296}
+      \strng{authorfullhashraw}{70dc2920f7527745f977bbed64bb4296}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Agarose, a strongly gelling polysaccharide, is a common ingredient used to optimize the viscoelastic properties of a multitude of food products. Through aggregation of double helices via hydrogen bonds while cooling under quiescent conditions it forms firm and brittle gels. However, this behavior can be altered by manipulating the processing conditions viz shear. For example, gelation under shear leads to microgel particles with large surface area, which in turn leads to completely different rheological properties and texture. Such fluid gels are shown to play an important role in texture modification of foods and beverages for dysphagia patients. In this study, different concentration of agarose fluid gel (0.5 \% wt, 1 \% wt and 2 \% wt) were considered. Rheological measurements of the microgel particles showed an increase of storage and loss modulus with increasing concentration. However, 1 \% wt fluid gel exhibited the lowest viscosity in the low shear range and the shortest LVE range. Furthermore, the effect on the microstructure and size of gel particles were also investigated by using light microscopy and particle size analysis. It was observed that as the concentration of agarose increased the particle size and unordered chains present at the particle surface decreases. Based on our results, we propose specific models suggesting the impact of the particle size, the concentration and the “hairy” projections on the rheological and tribological properties that could help in understanding the differences in characteristics of fluid gels., Image 1, •Formation of agarose fluid gels in dependence on concentration, temperature and shear rate.•Competing mechanism during gelation under shear of agarose fluid gels was studied.•The resulting gel particle structures, their size and shape vary with concentration.•Network structures, particle size and shape affect the rheological and tribological behavior.•Fluid gels provide unique properties of friction, viscosity and viscoelastic behavior.}
+      \field{day}{22}
+      \field{eprinttype}{pubmed}
+      \field{issn}{2665-9271}
+      \field{journaltitle}{Current Research in Food Science}
+      \field{month}{6}
+      \field{shortjournal}{Curr Res Food Sci}
+      \field{shorttitle}{Physics of Agarose Fluid Gels}
+      \field{title}{Physics of Agarose Fluid Gels: {{Rheological}} Properties and Microstructure}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{4}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{436\bibrangedash 448}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.crfs.2021.06.003
+      \endverb
+      \verb{eprint}
+      \verb 34258588
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC8255179/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC8255179/
+      \endverb
+    \endentry
+    \entry{bertulaStrainStiffeningAgaroseGels2019}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=be414e3a9218616c7cb1e4bf9fa5f26c}{%
+           family={Bertula},
+           familyi={B\bibinitperiod},
+           given={Kia},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4370eef3603e19f33fae193fd59d65a3}{%
+           family={Martikainen},
+           familyi={M\bibinitperiod},
+           given={Lahja},
+           giveni={L\bibinitperiod}}}%
+        {{hash=154fc50b94d4d56f48dfe9e88cd639bb}{%
+           family={Munne},
+           familyi={M\bibinitperiod},
+           given={Pauliina},
+           giveni={P\bibinitperiod}}}%
+        {{hash=502e736269158cb8390a65e927f66e39}{%
+           family={Hietala},
+           familyi={H\bibinitperiod},
+           given={Sami},
+           giveni={S\bibinitperiod}}}%
+        {{hash=311f3c35207a98485300ecba3c81e107}{%
+           family={Klefström},
+           familyi={K\bibinitperiod},
+           given={Juha},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c12a90869d91ecff793a0f6657d338a2}{%
+           family={Ikkala},
+           familyi={I\bibinitperiod},
+           given={Olli},
+           giveni={O\bibinitperiod}}}%
+        {{hash=72e2edb88a2f54beb65974422d75b889}{%
+           family={{Nonappa}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{0a2227c0dddb123c76bb7c0a1f09c686}
+      \strng{fullhash}{f47b66c93a73ccd3c2313b2fd4a8208f}
+      \strng{fullhashraw}{f47b66c93a73ccd3c2313b2fd4a8208f}
+      \strng{bibnamehash}{0a2227c0dddb123c76bb7c0a1f09c686}
+      \strng{authorbibnamehash}{0a2227c0dddb123c76bb7c0a1f09c686}
+      \strng{authornamehash}{0a2227c0dddb123c76bb7c0a1f09c686}
+      \strng{authorfullhash}{f47b66c93a73ccd3c2313b2fd4a8208f}
+      \strng{authorfullhashraw}{f47b66c93a73ccd3c2313b2fd4a8208f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Strain-stiffening is one of the characteristic properties of biological hydrogels and extracellular matrices, where the stiffness increases upon increased deformation. Whereas strain-stiffening is ubiquitous in protein-based materials, it has been less observed for polysaccharide and synthetic polymer gels. Here we show that agarose, that is, a common linear polysaccharide, forms helical fibrillar bundles upon cooling from aqueous solution. The hydrogels with these semiflexible fibrils show pronounced strain-stiffening. However, to reveal strain-stiffening, suppressing wall slippage turned as untrivial. Upon exploring different sample preparation techniques and rheological architectures, the cross-hatched parallel plate geometries and in situ gelation in the rheometer successfully prevented the slippage and resolved the strain-stiffening behavior. Combining with microscopy, we conclude that strain-stiffening is due to the semiflexible nature of the agarose fibrils and their geometrical connectivity, which is below the central-force isostatic critical connectivity. The biocompatibility and the observed strain-stiffening suggest the potential of agarose hydrogels in biomedical applications.}
+      \field{day}{18}
+      \field{journaltitle}{ACS Macro Letters}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shortjournal}{ACS Macro Lett.}
+      \field{title}{Strain-{{Stiffening}} of {{Agarose Gels}}}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{670\bibrangedash 675}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1021/acsmacrolett.9b00258
+      \endverb
+      \verb{file}
+      \verb /Users/tahmidazam/Zotero/storage/T93ZXBHG/Bertula et al. - 2019 - Strain-Stiffening of Agarose Gels.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acsmacrolett.9b00258
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acsmacrolett.9b00258
+      \endverb
+    \endentry
+    \entry{ioannidisManufacturingAgarosebasedChromatographic2012}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=2ba640c67d31b61250058a52787a576d}{%
+           family={Ioannidis},
+           familyi={I\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=451cd40e5d6ae98100b522406ede4fc3}{%
+           family={Bowen},
+           familyi={B\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f48c3ec731ceceb08a1e557b704a3bd6}{%
+           family={Pacek},
+           familyi={P\bibinitperiod},
+           given={Andrzej},
+           giveni={A\bibinitperiod}}}%
+        {{hash=319ea982b89572d2de516a27a031060e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhibing},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{29aad157cf8bd26f46e2877e504606a8}
+      \strng{fullhash}{be8736d129512d7d496149cb8d5ccda0}
+      \strng{fullhashraw}{be8736d129512d7d496149cb8d5ccda0}
+      \strng{bibnamehash}{29aad157cf8bd26f46e2877e504606a8}
+      \strng{authorbibnamehash}{29aad157cf8bd26f46e2877e504606a8}
+      \strng{authornamehash}{29aad157cf8bd26f46e2877e504606a8}
+      \strng{authorfullhash}{be8736d129512d7d496149cb8d5ccda0}
+      \strng{authorfullhashraw}{be8736d129512d7d496149cb8d5ccda0}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The effect of ionic strength of agarose solution and quenching temperature of the emulsion on the structure and mechanical strength of agarose-based chromatographic adsorbents was investigated. Solutions of agarose containing different amounts of NaCl were emulsified at elevated temperature in mineral oil using a high-shear mixer. The hot emulsion was quenched at different temperatures leading to the gelation of agarose and formation of soft particles. Analysis of Atomic Force Microscopy (AFM) images of particle surfaces shows that pore size of particles increases with ionic strength and/or high quenching temperature. Additionally it has been found that the compressive strength of particles measured by micromanipulation also increases with ionic strength of the emulsion and/or high quenching temperature but these two parameters have no significant effect on the resulting particle size and particle size distribution. Results from both characterization methods were compared with Sepharose 4B, a commercial agarose-based adsorbent. This is the first report examining the effect of ionic strength and cooling conditions on the microstructure of micron-sized agarose beads for bioseparation.}
+      \field{day}{1}
+      \field{issn}{0021-9797}
+      \field{journaltitle}{Journal of Colloid and Interface Science}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shortjournal}{Journal of Colloid and Interface Science}
+      \field{title}{Manufacturing of Agarose-Based Chromatographic Adsorbents – {{Effect}} of Ionic Strength and Cooling Conditions on Particle Structure and Mechanical Strength}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{367}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{153\bibrangedash 160}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.jcis.2011.10.063
+      \endverb
+      \verb{file}
+      \verb /Users/tahmidazam/Zotero/storage/3TWI35KR/Ioannidis et al. - 2012 - Manufacturing of agarose-based chromatographic adsorbents – Effect of ionic strength and cooling con.pdf;/Users/tahmidazam/Zotero/storage/T8ZK39XP/S0021979711013622.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0021979711013622
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0021979711013622
+      \endverb
+      \keyw{AFM,Agarose beads,Mechanical properties,Micromanipulation,Microstructure,Pore size}
+    \endentry
+    \entry{ofnerSwellingStudiesGelatin1986}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=597eff0f10ec09d5b68ad40203afc36f}{%
+           family={Ofner},
+           familyi={O\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ad9978ef262a30414c0f655bc3b89b5e}{%
+           family={Schott},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{17dcedddc337916647b506a651f0abc3}
+      \strng{fullhash}{17dcedddc337916647b506a651f0abc3}
+      \strng{fullhashraw}{17dcedddc337916647b506a651f0abc3}
+      \strng{bibnamehash}{17dcedddc337916647b506a651f0abc3}
+      \strng{authorbibnamehash}{17dcedddc337916647b506a651f0abc3}
+      \strng{authornamehash}{17dcedddc337916647b506a651f0abc3}
+      \strng{authorfullhash}{17dcedddc337916647b506a651f0abc3}
+      \strng{authorfullhashraw}{17dcedddc337916647b506a651f0abc3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The swelling rate and the equilibrium swelling of gelatin (type B) were studied by casting warm gelatin solutions into films, cutting them into short rectangular strips after gelation, drying them, and measuring the weight gain on immersion in buffer solutions as a function of time. The process variables investigated included concentration of the gelatin casting solutions, the thickness, drying conditions, age and residual moisture content of the film strips, the chemical nature and concentration of the buffers in the swelling solutions, and the temperature of these solutions at a constant pH of 7.0 (1.9 pH units above the isoionic point). The swelling kinetics followed a second-order equation. The initial swelling rate and the equilibrium swelling of the amorphous portion of the gelatin strips (which was somewhat smaller than the total observed swelling) were calculated from a linearized form of the rate equation. Of the factors investigated, the equilibrium swelling was increased most strongly when the temperature of the swelling solution was raised from 20 to 25 degrees C. Strip thickness was the predominant factor governing the rate of swelling, which was inversely proportional to the thickness. Conditions leading to slower drying and longer storage times promoted more extensive crystallization, thereby increasing the density of the gelatin strips and reducing their swelling rate.}
+      \field{eprinttype}{pubmed}
+      \field{issn}{0022-3549}
+      \field{journaltitle}{Journal of Pharmaceutical Sciences}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{8}
+      \field{shortjournal}{J Pharm Sci}
+      \field{shorttitle}{Swelling Studies of Gelatin. {{I}}}
+      \field{title}{Swelling Studies of Gelatin. {{I}}: {{Gelatin}} without Additives}
+      \field{volume}{75}
+      \field{year}{1986}
+      \field{dateera}{ce}
+      \field{pages}{790\bibrangedash 796}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1002/jps.2600750814
+      \endverb
+      \verb{eprint}
+      \verb 3580032
+      \endverb
+      \keyw{Acetates,Buffers,Chemical Phenomena,Chemistry,Gelatin,Solutions,Thermodynamics,X-Ray Diffraction}
+    \endentry
+    \entry{northropSWELLINGPRESSUREGELATIN1926}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=089c3a516577ccfaf7f92c4b423dc925}{%
+           family={Northrop},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=929d9a75601bd662f902cc21f15b8d9a}{%
+           family={Kunitz},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c367da8e9face5b27a780dd1bdce5852}
+      \strng{fullhash}{c367da8e9face5b27a780dd1bdce5852}
+      \strng{fullhashraw}{c367da8e9face5b27a780dd1bdce5852}
+      \strng{bibnamehash}{c367da8e9face5b27a780dd1bdce5852}
+      \strng{authorbibnamehash}{c367da8e9face5b27a780dd1bdce5852}
+      \strng{authornamehash}{c367da8e9face5b27a780dd1bdce5852}
+      \strng{authorfullhash}{c367da8e9face5b27a780dd1bdce5852}
+      \strng{authorfullhashraw}{c367da8e9face5b27a780dd1bdce5852}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{1. A method is described for measuring the swelling pressure of solid gelatin. 2. It was found that this pressure increases rapidly between 15° and 37°C., and that the percentage change is nearly independent of the concentration of gelatin. 3. It is suggested that this pressure is due to the osmotic pressure of a soluble constituent of the gelatin held in the network of insoluble fibers, and that gelatin probably consists of a mixture of at least two substances or groups of substances, one of which is soluble in cold water, does not form a gel, and has a low viscosity and a high osmotic pressure. The second is insoluble in cold water, forms a gel in very low concentration, and swells much less than ordinary gelatin. 4. Two fractions, having approximately the above properties, were isolated from gelatin by alcohol precipitation at different temperatures. 5. Increasing the temperature and adding neutral salts greatly increase the pressure of the insoluble fraction and have little effect on that of the soluble fraction. 6. Adding increasing amounts of the soluble fraction to the insoluble one results in greater and greater swelling. 7. These results are considered as evidence for the idea that the swelling of gelatin in water or salt solutions is an osmotic phenomenon, and that gelatin consists of a network of an insoluble substance enclosing a solution of a soluble constituent.}
+      \field{day}{20}
+      \field{eprinttype}{pubmed}
+      \field{issn}{0022-1295}
+      \field{journaltitle}{The Journal of General Physiology}
+      \field{month}{9}
+      \field{number}{1}
+      \field{shortjournal}{J Gen Physiol}
+      \field{title}{{{THE SWELLING PRESSURE OF GELATIN AND THE MECHANISM OF SWELLING IN WATER AND NEUTRAL SALT SOLUTIONS}}}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{10}
+      \field{year}{1926}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{161\bibrangedash 177}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1085/jgp.10.1.161
+      \endverb
+      \verb{eprint}
+      \verb 19872305
+      \endverb
+      \verb{file}
+      \verb /Users/tahmidazam/Zotero/storage/HMIDCYGB/Northrop and Kunitz - 1926 - THE SWELLING PRESSURE OF GELATIN AND THE MECHANISM OF SWELLING IN WATER AND NEUTRAL SALT SOLUTIONS.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC2140869/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC2140869/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

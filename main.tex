@@ -1,0 +1,345 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{pgfplots}
+\usepackage[a4paper, portrait, margin=1in]{geometry}
+\usepackage{fontspec}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{siunitx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{mhchem}
+\usepackage[style=numeric,sorting=none]{biblatex}
+
+\addbibresource{ref.bib}
+
+
+\pgfplotsset{compat=newest}
+
+% Fix for https://github.com/matplotlib/matplotlib/issues/27907
+\providecommand{\mathdefault}[1]{#1}
+
+\title{3G5 Lab Report}
+\author{Tahmid Azam}
+\date{October 2025}
+
+\begin{document}
+
+\maketitle
+\begin{abstract}
+    This study investigates the properties of agarose hydrogels at 3\% w/v in plain and 1\% \ce{NaNO3} formulations. Thermal and optical methods were used to determine the gelling point, with thermal measurements indicating a transition at \SIrange{55}{57}{\degreeCelsius} and optical measurements at \SIrange{36}{37}{\degreeCelsius}. The addition of salt had only a marginal effect, with differences between plain and salted agarose falling within the experimental margin of error, while discrepancies between the two methods were attributed to methodological differences. Mechanical behaviour under compressive loads (\qty{385}{g} and \qty{925}{g}) was characterised via creep compliance and fitted using a four-component Burgers model and non-linear least squares regression, demonstrating non-linear viscoelasticity. Swelling studies showed minimal water uptake in agarose, contrasted with significant gelatin swelling. Salt increased compliance and likely expanded pore size through ionic interactions. Overall, these results highlight how ionic content and mechanical stress influence the coil-to-helix transition, viscoelastic response, and swelling of agarose independent of salt content, providing insights for hydrogel design in biomedical applications while confirming the material's softness and suitability for such uses.
+\end{abstract}
+
+
+
+\section{Introduction}
+
+
+Hydrogels are 3-dimensional polymer networks that are hydrophilic, confering an ability to retain large volumes of water all while maintaing a defined structure \cite{ahmedHydrogelPreparationCharacterization2015}. Their high water content is suited to biomedical applications, such as cell culture scaffolds, controlled drug release systems \cite{wangPreparationCharacterizationAgarose1997}, wound dressings, and tissue engineering. Agarose is a naturally occurring polysaccharide polymer, derived from red algae. The polymer structure is linear, composed of D-galactose and 3,6-anhydrous-L-galactose monomers forming molecules of molecular weight between \qty{80}{\kilo \dalton} and \qty{140}{\kilo \dalton}. Their structure involves curly coils, double helices, and an aggregated double helix network, structures that form sensitive to heating or cooling. Agarose hydrogels are thermoreversible, show good biocompatability, are relatively inert, and have tunable mechanical properties \cite{jiangExtractionModificationBiomedical2023}.
+
+In this study, we investigate agarose hydrogels formed at 3\% w/v, in a plain formulation and a salted formulation with added \ce{NaNO3} at 1\% w/v. We investigate material properties of the hydrogels: the gelling point using thermal (S1) and optical (S2) methods; the mechanical response under compression (S3); and the swelling behaviour in water (S4). The effect of added salt on these properties is considered. These investigations can be used to inform the design of agarose hydrogels for biomedical applications.
+
+\newpage
+
+\section{Investigations}
+
+
+\subsection{Thermal measurement of gelling point (S1)}
+
+\subsubsection{Introduction}
+
+The gelling point is a material property that describes the temperature at which agarose transitions from a liquid to a solid. In this experiment, the temperature of heated samples of plain and salted agarose was monitored during cooling in a chilled water bath for \qty{30}{\minute} at a sampling frequency of \qty{1}{\hertz} using a thermocouple.
+
+Newton's Law of Cooling (stated in \autoref{eq:newton_cooling}) motivates defining the gelling point as the temperature at which the linear relationship between $\ln \Delta T$ and time no longer holds.
+
+\begin{figure}[H]
+    \centering
+    $$\frac{dT}{dt} \propto T - T_a$$
+    \caption{Newton's Law of cooling dictates that the rate of change of a hot body's temperature via convective heat loss is proportional to the difference of its temperature $T$ and the ambient temperature $T_a$.}
+    \label{eq:newton_cooling}
+\end{figure}
+
+
+During the phase transition, agarose undergoes a coil-to-helix conformational change, during which thermal energy is absorbed, causing the rate of temperature decrease to exceed that stated by Newton.
+The ambient temperature, $T_a$, is taken as the final temperature recorded at \qty{1800}{\second}.
+In this experiment we assume the factors affecting the constant of proportionality in Newton's Law of Cooling (e.g., body's geometry, the fluid the body is immersed in) remain constant, which allows us to attribute the deviation from linearity to changes in the body's internal energy and the associated phase change-associated enthalpy.
+
+\subsubsection{Results}
+
+The cooling curves for plain and salted agarose gels, plotted as $\ln{\Delta T}$ against time $t$, are shown in \autoref{fig:s1_plain} and \autoref{fig:s1_salted}, respectively.
+A linear region of the curve, selected by inspection for $60 \leq t \leq 150$ s, is used to fit a linear regression representing the Newton cooling rate.
+The resulting regression equation is shown on the top-right of each $\ln{\Delta T}$ plot and is extrapolated over the full time range (0–1800 s).
+Residuals, defined as the difference between the observed $\ln{\Delta T}$ values and the regression fit, are plotted on the lower axes.
+The gelling point is identified as the first time at which the residuals exceed three standard deviations of the residuals in the linear region.
+The gelling points determined for plain and salted agarose gels using this method are summarised in \autoref{tab:s1_tg}.
+We find the gelling point for salted agarose to by \qty{2.1}{\degreeCelsius} higher than plain agarose.
+
+\begin{table}[H]
+    \centering
+    \input{tables/tg.tex}
+    \caption{Gelling points for plain and salted agarose gels}
+    \label{tab:s1_tg}
+\end{table}
+
+\begin{figure}
+    \centering
+    \input{plots/s1/s1_plain.pgf}
+    \caption{Plain agarose gel cooling curve}
+    \label{fig:s1_plain}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \input{plots/s1/s1_salted.pgf}
+    \caption{Salted agarose gel cooling curve}
+    \label{fig:s1_salted}
+\end{figure}
+
+\subsubsection{Limitations}
+\label{subsubsec:thermal_limitations}
+
+Limitations of the method may have introduced uncertainty into our observed gelling points.
+The thermocouples were not perfectly calibrated, uncertainty observed during the practical as multiple thermocouples in the same water bath were reading values up to \qty{1}{\degreeCelsius} apart.
+Local temperature gradients may have arised from multiple experiments being run in parallel with hot agarose gels being introduced to the water bath and removed, resulting in an inconsistent level of cooling.
+Furthermore, the water bath was not stirred, nor was the agarose solution inside the vessel, and the thermocouple was not perfectly placed in the centre of the vessel in all cases.
+The ambient temperature was taken as the last recorded temperature at the end of the experiment, which may not reflect the actual temperature of the water bath if equilibrium was not achieved.
+
+\subsection{Optical measurement of gelling point (S2)}
+
+\subsubsection{Introduction}
+
+During the coil-to-helix transition the interaction of agarose with light changes in addition to enthalpy outlined exploited in the thermal measurement experimental method.
+The solution is observed to transition from transparent to cloudy, which can be measured using a scanning spectrophotometer, which passes a light (in this case, wavelength, $\lambda=\qty{400}{\nano\metre}$) through the sample and measures how much is absorbed.
+The temperature is also monitored using a thermocouple.
+Both the absorbance and temperature are sampled at \qty{0.1}{\hertz}.
+
+\subsubsection{Results}
+
+The temperature and absorbance curves for plain and salted agarose gel are plotted in \autoref{fig:s2_plain} and \autoref{fig:s2_salted} respectively. A mask of $60 \geq t \geq 800$ is determined to constitue a baseline by inspection, and baseline is determined by finding the average (equivalent to regression with a model of $y=c$, where $c$ is a constant).
+The baseline is extrapolated for all $t$.
+The residuals, defined as the difference between the absorbance values and the fitted baseline, are plotted in the bottom axes.
+The gelling point is identified as the first time at which the residuals exceed three standard deviations of the residuals in the masked region. The gelling points determined for plain and salted agarose gels using this method are summarised in \autoref{tab:s1_tg}. The gelling point of salted agarose is found to be \qty{0.8}{\degreeCelsius} lower than plain agarose.
+
+\subsubsection{Limitations}
+\label{subsubsec:s2_lim}
+
+The limitations of the thermocouple outlined in \ref{subsubsec:thermal_limitations} also apply to this method (thermocouple uncertainty, placement, mixing).
+In addition, the spectrophotometer may not have been perfectly calibrated, and we assume that the mechanism in the spectrophotometer can effectively isolate the sample from any ambient light. We also assume that the cuvette, the vessel that held the agarose solution, was optically transparent; and that \qty{400}{\nano\metre} is an effective wavelength to capture the change in absorbance during gelation.
+
+\begin{figure}[H]
+    \centering
+    \input{plots/s2/s2_plain.pgf}
+    \caption{Plain agarose hydrogel absorbance and temperature curves}
+    \label{fig:s2_plain}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{plots/s2/s2_salted.pgf}
+    \caption{Salted agarose hydrogel absorbance and temperature curves}
+    \label{fig:s2_salted}
+\end{figure}
+
+\newpage
+
+\subsection{Mechanical measurements (S3)}
+
+\subsubsection{Introduction}
+
+The deformation over time (i.e., creep) of plain and salted agarose hydrogels under two different loads (\qty{385}{\gram} and \qty{925}{\gram}) was measured and model using the 4-component Burgers model. The compression setup was recorded using a mobile phone, and data was sampled from the recording after the experiment. The raw data is included in the appendix, under \autoref{tab:s3_raw}
+
+The strain, $\varepsilon$, is defined as the change in length divided by the original length (i.e., $\frac{\Delta H}{H_0}$). $H_0$ of the agarose samples was \qty{16}{\milli\metre}. $\sigma_0$ is calculated by dividing the force by the cross-sectional area of the agarose sample. The force was calculated from the mass of the weights using $F=mg$, where $g=\qty{9.81}{\metre\per\second\squared}$ is the acceleration due to gravity. The cross-sectional area of the agarose samples was calculated using $A =\pi r^2 = \pi \cdot 0.016^2 = 0.000201$ (3 s.f.). $\sigma_0$ for the two weights are summarised in \autoref{tab:sigma0}. The creep compliance function was therefore computed for each time step as $\frac{\varepsilon}{\sigma_0}$, and the resulting calculations are outlined in \autoref{tab:s3_j_values}.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{lrr}
+        \toprule
+        mass, $m$ (g) & force, $F$ (N) & $\sigma_0$ (Pa) \\
+        \midrule
+        385           & 9.065          & 18765           \\
+        925           & 3.773          & 45086           \\
+        \bottomrule
+    \end{tabular}
+    \caption{Values of $\sigma_0$ for the utilised loads}
+    \label{tab:sigma0}
+\end{table}
+
+\subsubsection{Plots and regression analyses}
+
+The $J(t)$ curves are plotted for each configuration in \autoref{fig:s3_plain_180}, \autoref{fig:s3_plain_720}, \autoref{fig:s3_salted_180}, and \autoref{fig:s3_salted_720}.
+
+
+\begin{figure}[H]
+    \centering
+    \input{plots/s3/plain-180.pgf}
+    \caption{$J(t)$ against time for plain agarose hydrogel under \qty{385}{\gram} load}
+    \label{fig:s3_plain_180}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{plots/s3/plain-720.pgf}
+    \caption{$J(t)$ against time for plain agarose hydrogel under \qty{925}{\gram} load}
+    \label{fig:s3_plain_720}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{plots/s3/salted-180.pgf}
+    \caption{$J(t)$ against time for salted agarose hydrogel under \qty{385}{\gram} load}
+    \label{fig:s3_salted_180}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{plots/s3/salted-720.pgf}
+    \caption{$J(t)$ against time for salted agarose hydrogel under \qty{925}{\gram} load}
+    \label{fig:s3_salted_720}
+\end{figure}
+
+For each set of calculated $J(t)$ values, we fit the model using \texttt{scipy.optimize.curve\_fit} and the model definition stated in \autoref{fig:maxwell_kevin_voigt_code}.
+
+\begin{figure}[H]
+    \centering
+    $$J(t) = \frac{1}{E_1} + \frac{1}{E_2} \left[ 1 - \exp\left( -\frac{E_2 t}{\eta_2} \right) \right] + \frac{t}{\eta_1}
+    $$
+    \begin{verbatim}
+def maxwell_kevin_voigt_model(x, e_1, e_2, eta_1, eta_2):
+    return 1 / e_1 + (1 / e_2) * (1 - np.exp(-e_2 * x / eta_2)) + x / eta_1
+    \end{verbatim}
+    \caption{Definition and Python implementation of the Maxwell-Kevin-Voigt model of the creep compliance function}
+    \label{fig:maxwell_kevin_voigt_code}
+\end{figure}
+
+The fitted model is plotted as a dashed line. Horizontal lines are also plotted using the parameters yielded from the non-linear least squares regression. The linear region the model approaches for large $t$ is plotted also as a line with equation:
+
+$$y = \left(\frac{1}{\eta_1} \right) x + \left(\frac{1}{E_1} + \frac{1}{E_2}\right)$$
+
+\subsubsection{Results}
+
+The parameters of the model fits are outlined in \autoref{tab:s3_model_parameters}.
+
+\begin{table}[H]
+    \centering
+
+    \input{tables/s3-model-parameters.tex}
+    \caption{Model parameters}
+    \label{tab:s3_model_parameters}
+\end{table}
+
+The regression results are very close to the data points observed in \autoref{fig:s3_plain_180}, \autoref{fig:s3_plain_720}, \autoref{fig:s3_salted_180}, and \autoref{fig:s3_salted_720}; this demonstrates that the Burgers model is effective. The regression fits of all investigated configurations are plotted in \autoref{fig:s3_fitted} for comparison.
+
+\begin{figure}[H]
+    \centering
+    \input{plots/s3/fitted.pgf}
+    \caption{4-component Burgers model fits overlaid on same axis}
+    \label{fig:s3_fitted}
+\end{figure}
+
+For a linear viscoelastic material, $J(t)$ is independent of stress, which means the material's response to any load can be effectively predicted by superposition. In the results, however, the parameters of the Burgers model change with the applied stress, and the higher load curves are not just scaled versions of the lower load curves. As a result, as $J(t)$ is observed to depend on stress, the material does not obey superposition and is therefore non-linear viscoelastic. It must be noted that the Burgers model fits and captures $J(t)$ well, even though linear superposition is invalid.
+
+All configurations have relatively similar values for $\eta_1$, between 1 to 0.14. This suggests that the steady state, linear viscoous response is relatively invariant to $\sigma_0$ and salt content.
+
+Other observations to note include:
+
+\begin{itemize}
+    \item the salted samples generally have higher values for $J(t)$ than the plain agarose;
+    \item for the same load, $E_1$ is very similar for both plain and salted agarose; however, $E_2$ varies greatly. $E_1$ is also greater for the higher load;
+    \item for plain agarose, $\eta_2$ did not change very much with load, staying at approximately \qty{60}{\mega\pascal} in comparison to the salted, which rose from \qty{43}{\mega\pascal} to \qty{58}{\mega\pascal} from the lighter to the heavier load; and
+    \item visually, the samples were visibly deformed once the mass had been removed, with some edges buckling inwards, and the diameter enlarging in some areas.
+\end{itemize}
+
+\subsubsection{Limitations}
+
+There are limitations of the method that may have introduced uncertainty into our observed creep compliance values. First, the agarose sample may not have been perfectly in line with the loading axis, which may have introduced an uneven stress profile across the cross-sectional area. In addition, there may be variations present in the initial height of the agarose samples. As a result, the metal spacer may not have been perfectly effective in either ensuring 0 initial stress (if the sample was taller than the spacer) or in preventing free fall of the mass pre-compression (if the sample was shorter than the spacer). Extraction of the metal spacer to initiate compression required supporting the mass from a point distant from the compression axis, allowing for a small initial tilt of the mass and an uneven initial application of load. Furthermore, there may be variation or human error in starting the stopwatch at the exact moment the load is applied.
+
+\subsection{Swelling measurements (S4)}
+
+\subsubsection{Introduction}
+
+Swelling is investigated using a conventional gravimetric method on samples of plain agarose (3\% w/v), salted agarose (1\% \ce{NaNO3}), and gelatin (25\% w/v). The samples are weighed and then immersed in water. At regular time intervals, they are taken out of the water, dried briefly with a consistent technique, and then weighed to capture the additional weight of water. The protocol is continued for an hour. Percentage swelling is calculated using the dry weight, $W_d$, and the sample weight, $W_s$:
+
+$$\text{\% swelling} = \frac{W_s - W_d}{W_d} \times 100$$
+
+The percentage values for the three samples are included in the appendix, under \autoref{tab:s4_swelling}.
+
+\subsubsection{The immersed hydrogel}
+
+Immersion of a hydrogel in a water allows for the hydrophillic groups common in natural hydrogels due to polypeptide structures (e.g., \ce{-COOH}, \ce{-NH2}, \ce{-OH}) to interact via hydrogen bonding with new water molecules as they diffuse into the network. The hydrogel swells and may increase in volume as the polymer expands to accommodate the entering water. A schematic of this process is outlined in \autoref{fig:immersion}. In this schematic, note the condensed and relaxed conformation of the polymer chains (black lines), and the hydrogen bond interactions between water molecules and the hydrophillic groups.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/immersion.png}
+    \caption{Schematic of the hydrogel immersion process}
+    \label{fig:immersion}
+\end{figure}
+
+\subsubsection{Results}
+
+The plots of the percentage of swelling against immersion time are displayed in \autoref{fig:s4}. The plain and salted agarose samples saturated with water quickly, demonstrated by the plateau at 1.75\% on the graph for $t>500$. Gelatin, however, did not saturate on the timescale the experiment was run (extended from 20min to 1 hour), and continued to increase swelling with immersion time. Therefore, the rate of change of mass of plain and salted agarose gels falls to 0 after \qty{5}{\minute}, whereas gelatin's rate of change of mass appears to remain constant in this immersion time window.
+
+\begin{figure}[H]
+    \centering
+    \input{plots/s4/s4.pgf}
+    \caption{Percentage of swelling against immersion time for plain agarose, salted agarose, and gelatin}
+    \label{fig:s4}
+\end{figure}
+\subsubsection{Limitations}
+
+Any variations in the technique used to dry the samples are likely to have introduced uncertainty in the measurements of $W_s$.
+Small amounts of human error may also have occurred in the timing of measurements, estimated to be on the order of \qty{10}{\second}.
+It was assumed that all samples were kept in comparable environmental conditions, such that their initial water content and subsequent approach to saturation were not differentially affected.
+Repeated mechanical handling with tweezers may have altered the internal structure of the gels or inconsistently displaced water through gentle squeezing.
+Finally, temperature was not actively controlled during the experiment, which may have influenced the rate of swelling.
+
+\subsection{Discussion}
+
+The literature quotes a gel point of \qty{35}{\degreeCelsius} \cite{normandNewInsightAgarose2000}, and that the addition of salt does not modify the gelling point \cite{saccoIonicStrengthImpacts2024}. Two discrepancies arise, where we have found gelling points (stated in \autoref{tab:s1_tg}) with thermal methods approximately \qty{20}{\degreeCelsius} greater than the literature values, and that we do see a difference between our plain and salted samples (\qty{2.1}{\degreeCelsius} in S1, and \qty{0.8}{\degreeCelsius} in S2). \cite{ghebremedhinPhysicsAgaroseFluid2021} demonstrates that the coil-to-helix transition is sensitive to the percentage w/v of agarose, and literature figures state a range between \qty{35}{\degreeCelsius} to \qty{45}{\degreeCelsius}. Our values of 3\% w/v agarose using optical methods finds values of $T_g$ that are close to the literature values.
+
+The differences between plain and salted agarose are within the margins of error of the thermocouple sensors and the limitations outlined in sections \ref{subsubsec:thermal_limitations} and \ref{subsubsec:s2_lim}. The vastly different values of $T_g$ we find could be a result of measuring different phenomena within the agarose. The coil-to-helix transition may occur over a period of time, a property that is not effectively captured in one temperature value in a data book; whether it is the temperature at which gelling begins, or ends, or somewhere inbetween is up for interpretation. The thermal method identifies the change in enthalpy response, which may occur earlier, and the optical method used in S2 identifies changes in absorbance perhaps later in the transition process. As temperature continues to fall during the transition, this could lead to the discrepancies observed. Furthermore, as we produced the agarose ourselves by hand, uncertainties within the scales, measuring the volume of water, time in the microwave (and therefore intial temperature conditions) may affect our observations.
+
+\cite{bertulaStrainStiffeningAgaroseGels2019} provides evidence for non-linear viscoelastic behaviour, in line with our experimental observations. The non-linear viscoelastic behaviour may arise due to restructuring of the hydrogel in a stress-dependent manner via fibril bending, micro-buckling, or local network rearrangement. The literature corroborates the delayed elastic component with an explanation involving the bending of semiflexible fibrils; however, the non-linear behaviours described by the literature involving fibril stretching or slippage at fibril junctions were not observed in the range of stresses investigated. As a result, we don't see the deviations from the Burgers model. The increased values for $J(t)$ with the salted samples may be explained by the repulsive ionic interactions between salt ions and charged groups on the agarose chains loosening the the fibril network and increasing the pore size. The literature corroborates that increasing ionic strength increases mean pore size in agarose \cite{ioannidisManufacturingAgarosebasedChromatographic2012}. This relaxed network can provide less resistance to deformation, culminating in the observed greater fitted $J(t)$ for salted agarose.
+
+The swelling trends remain in line with the literature. For agarose, we observed very little swelling, which aligns with swelling studies in \cite{ghebremedhinPhysicsAgaroseFluid2021}, who also observed minimal swelling over the course of a much longer time period, \qty{50}{\day}. Gelatin, however, was observed to swell significantly, and did not decrease in rate in the hour long experiment. The literature also finds the swelling of gelatin to be a second order process \cite{ofnerSwellingStudiesGelatin1986}. The second order component, or the saturation of gelatin, may have only been observed with a longer experiment period. The ability for gelatin to swell with water is attributed to the gradient of water potential enabled by the soluble gelatin molecules within the insoluble network lowering water potential. In contrast, agarose does not feature this internal soluble protein content \cite{northropSWELLINGPRESSUREGELATIN1926}.
+
+In general, these experiments featured no repeats, and therefore error bars could not be visualised or interpreted to understand the uncertainty and better differentiate two results as distinct or within the margin of error.
+
+\section{Conclusion}
+
+This study has provided insight into the characterisation of 3\% w/v agarose hydrogels, both plain and salted with 1\% \ce{NaNO3}. Thermal and optical measurements revealed the gelation transition, with differences between plain and salted samples falling within experimental uncertainty, highlighting the subtle effect of salt. Mechanical testing showed non-linear viscoelastic behaviour, with salted gels exhibiting slightly higher creep compliance, likely due to ionic interactions loosening the fibril network. Swelling experiments confirmed minimal water uptake in agarose compared to gelatin. Together, these results demonstrate how agarose network structure and ionic content govern gelation, mechanical response, and swelling, providing guidance for the design of agarose-based hydrogels in biomedical applications.
+
+\newpage
+
+\printbibliography
+
+
+\newpage
+
+\appendix
+\section*{Appendices}
+
+\begin{table}[H]
+    \centering
+    \input{tables/s3_raw_values.tex}
+    \caption{S3 Raw observed displacement data for}
+    \label{tab:s3_raw}
+\end{table}
+
+
+\begin{table}[H]
+    \centering
+    \input{tables/s3_j_values.tex}
+    \caption{S3 creep compliance values calculated from displacement data}
+    \label{tab:s3_j_values}
+\end{table}
+
+
+\begin{table}[H]
+    \centering
+    \input{tables/s4}
+    \caption{S4 percentage swelling of plain agarose, salted agarose, and gelatin over time}
+    \label{tab:s4_swelling}
+\end{table}
+
+
+\end{document}
